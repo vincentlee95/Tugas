@@ -1,0 +1,131 @@
+body{
+	color:white;
+	background-image : url(IMG/img4.jpg);
+	text-shadow: 0px 0px;
+	text-align: center;
+	
+}
+a{
+	text-decoration: none;
+	color:white;
+}
+h1 a{
+	color: #008ad2;
+	text-decoration:none;
+}
+#container{
+	width:1000px;
+	height:auto;
+	margin: 0 auto;	
+}
+#papa{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.content {
+	width: 1000px;                            
+	height:auto;
+	margin:0 auto;                          
+}
+.menu {
+	width:1000px;                            
+	height:200px;                           
+	display:inline-block;
+	color:#fff;
+}
+.menu span {
+	display: block;
+	font-size:15px;
+	height:20px;
+	margin:5px 0;
+	text-align:center;
+	line-height: 20px;
+	text-transform:uppercase;
+}
+.block2:hover {
+	
+	border:3px solid #ccc;                      
+}
+
+.ubin2{
+	width:386px;
+	height:180px;
+}
+.block2{
+	margin:3px;
+	border:3px solid transparent;              
+	display:inline-block;                                                      
+	cursor:pointer;
+	margin-bottom:20px;
+}
+.block:hover {
+	border:3px solid #ccc;                      
+}
+.img1{
+	background-color: #00a000;
+	margin-right:-2px;
+	}
+.img2 {
+	background-color: #008ad2;
+}
+.img3 {
+	background-color: #ffc40d;
+	margin-right:-2px;
+}
+.img4 {
+	background-color: #bc1d49;
+}
+.img5 {
+	background-color: blueviolet;
+	margin-right:-2px;
+}
+.img6 {
+	background-color: orange;
+}
+.img7 {
+	background-color: darkblue;
+	margin-right:-2px;
+}
+.img8 {
+	background-color: brown;
+}
+.img9 {
+	background-color: limegreen;
+	margin-right:-2px;
+}
+.img10 {
+	background-color: rebeccapurple;
+}
+.img11 {
+	background-color: cornflowerblue;
+	margin-right:-2px;
+}
+.img12 {
+	background-color: olive;
+}
+.img13 {
+	background-color: crimson;
+	margin-right:-2px;
+}
+.gambar{
+	width:387px;
+	height:150px;
+	background-color: #ccc;
+}
+img{
+	width : 387px;
+	height: 150px;
+}
+.nama{
+	font-weight: bold;
+	font-style : italic;
+	color : white;
+	opacity: 1;
+}
+button{
+	margin: 20px;
+	height:20px;
+	width:100px;
+}
+.clickbox{
+	border: 3px solid #ccc;
+}
