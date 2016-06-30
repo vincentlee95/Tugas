@@ -1,0 +1,33 @@
+    #rateMe{
+	clear:both;  
+	margin-top:100px;
+	}
+    #rateMe li{
+	float:left; 
+	list-style:none;
+	}
+    #rateMe li a:hover,
+    #rateMe .on{
+	background:url(full-star.png) no-repeat;
+	}
+    #rateMe a{
+	float:left;
+	background:url(empty-star.png) no-repeat;
+	width:50px; 
+	height:50px;
+	}
+    #rateStatus{
+	width:150px; 
+	height:50px;
+	font:bold 20px arial;
+	color:red; 
+	float:left;
+	clear:both;
+	margin-top:10px;
+	}
+    #ratingSaved{
+	display:none;
+	}
+    .saved{
+	color:red; 
+	}

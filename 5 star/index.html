@@ -1,0 +1,20 @@
+<html>
+<head>
+<title>Rating</title>
+<link rel="stylesheet" type="css/txt" href="style.css">
+<script type="text/javascript" src="rating.js"></script> 
+</head>
+
+<body> 
+    <div id="rateMe" title="Rate Me!">
+    <a onclick="rateIt(this)" id="_1" title="Tidak Bagus" onmouseover="rating(this)" onmouseout="off(this)"></a>
+    <a onclick="rateIt(this)" id="_2" title="Biasa saja" onmouseover="rating(this)" onmouseout="off(this)"></a>
+    <a onclick="rateIt(this)" id="_3" title="Bagus" onmouseover="rating(this)" onmouseout="off(this)"></a>
+    <a onclick="rateIt(this)" id="_4" title="Lumayan Bagus" onmouseover="rating(this)" onmouseout="off(this)"></a>
+    <a onclick="rateIt(this)" id="_5" title="Sangat Bagus" onmouseover="rating(this)" onmouseout="off(this)"></a>
+  </div>
+   <span id="rateStatus"></span>
+    <span id="ratingSaved"></span>
+
+</body>
+</html>
